@@ -45,6 +45,9 @@ UCI Machine Learning Repository.
 
 ## Deployment
 
-The trained models were deployed using Streamlit Community Cloud. The application
-allows users to upload test data, select a classification model, view evaluation
-metrics, and visualize the confusion matrix interactively.
+The machine learning models are demonstrated using a Streamlit web application
+deployed on Streamlit Community Cloud. For deployment efficiency and to avoid
+large serialized model files, the models are trained dynamically within the
+Streamlit application using the uploaded dataset. The application allows users
+to upload a CSV file, select a classification model, view evaluation metrics, and
+visualize the confusion matrix interactively.
